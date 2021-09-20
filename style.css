@@ -1,0 +1,153 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.wrapper {
+ width: 1000px;
+ height: 1000px;
+ border-radius: 20px;
+ background-color: floralwhite;
+ margin: auto;
+}
+.grid-container {
+ display: grid;
+ grid-template: 200px 500px 300px / 500px 500px;
+}
+
+.grid-item {
+ border-radius: 5px;
+ border: solid;
+}
+
+.header {
+ display: grid;
+ grid-template-columns: 200px 800px;
+ grid-column: span 2;
+ margin-bottom: 5px;
+ background: linear-gradient(90deg,aliceblue,wheat,cornsilk,wheat,aliceblue)
+}
+.text {
+ margin: 0 2.5px 5px 0;
+ width: 497.5px;
+ border-radius: 35px;
+}
+.content {
+ margin: 0 0 5px 2.5px;
+ width: 497.5px;
+}
+.footer {
+ grid-column: span 2;
+}
+
+.logo {
+ width: 200px;
+ height: 200px;
+}
+.logo p {
+ width: 150px;
+ height: 150px;
+ border: solid;
+ border-radius: 75px;
+ margin: 25px;
+ background: linear-gradient(-45deg, red, orange, yellow, greenyellow, green, skyblue, blue, violet, indigo);
+}
+.header-text {
+ width: 800px;
+}
+.header-text p {
+ font-size: 60px;
+ font-weight: bold;
+ width: 700px;
+ height: 100px;
+ margin: 50px;
+}
+
+.content {
+ display: grid;
+ grid-template: 165px 165px 165px / 165px 165px 165px;
+ border-radius: 35px;
+ background: linear-gradient(-45deg,wheat,cornsilk,whitesmoke,aliceblue, cornsilk, wheat);
+ box-shadow: 5px 2px 5px rgba(0,0,0,0.6);
+}
+
+button {
+ width: 140px;
+ height: 140px;
+ margin: 15px 5px 10px 5px;
+ border-radius: 70px;
+ border: solid;
+}
+button:active {
+ box-shadow: inset 0 -6px 5px rgba(0, 0, 0, 0.7);
+ top: 6px;
+}
+.red {
+ background: linear-gradient( red, orange);
+}
+.orange {
+ background: linear-gradient(orange,yellow);
+}
+.yellow {
+ background: linear-gradient(yellow,greenyellow)
+}
+.green {
+ background: linear-gradient(green,skyblue)
+}
+.blue {
+ background: linear-gradient(blue,violet);
+}
+.blueviolet {
+ background: linear-gradient(blueviolet, indigo)
+}
+
+.logo p:active {
+ box-shadow: inset -6px -6px 6px rgba(0, 0, 0, 0.8);
+ top: 6px;
+}
+
+ img {
+ width: 430px;
+ height: 430px;
+ margin: 30px;
+ border: solid;
+ border-radius: 35px;
+}
+
+.text {
+ background: linear-gradient(wheat,cornsilk,aliceblue,cornsilk,wheat);
+ box-shadow: 5px 2px 5px rgba(0,0,0,0.6);
+}
+
+.footer {
+ background: linear-gradient(-75deg, aliceblue,wheat,cornsilk,lightskyblue,aliceblue,lightskyblue,cornsilk,wheat,aliceblue);
+}
+.footer p {
+ font-size: 25px;
+ margin: 100px;
+}
+.pteg {
+ font-size: 10px;
+ text-align: right;
+}
